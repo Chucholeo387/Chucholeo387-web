@@ -58,7 +58,7 @@ export default function Home() {
           <header>
             <h1 className="font-bold text-4xl sm:text-5xl name">Jesus L Lugo R</h1>
             <h2 className="font-bold text-lg sm:text-xl mt-3 carrera"> Fullstack Web Developer</h2>
-            <h2 className="text2 text-xl mt-3"> Let's build a digital presence</h2>
+            <h2 className="text2 text-xl mt-3"> Lets build a digital presence </h2>
           </header>
 
           <Nav/>
@@ -91,7 +91,7 @@ export default function Home() {
           <div className="my-4 text2 ">
             <p className="py-3">I am a bioanalyst who decided to venture into the world of technology to create digital applications that would allow me to be the bridge between two worlds. Since then, <TimeExp fechaIni="2022/11/01"/> have passed, and every day I feel like the Golden Gate.</p>
             <p className="py-3">I rely on technologies such as Vue, React, Quasar, Next, and GraphQL to achieve my goals and enhance the user experience. This has allowed me to focus on frontend development.</p>
-            <p className="py-3">When I'm not a web developer or bioanalyst, I enjoy going out to eat, spending time with my wife, playing video games, and watching movies.</p>
+            <p className="py-3">When I am not a web developer or bioanalyst, I enjoy going out to eat, spending time with my wife, playing video games, and watching movies.</p>
           </div> 
         </div>
         <div className="lg:pt-20 lg:my-20"  id="experience">
