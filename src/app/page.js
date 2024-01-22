@@ -15,7 +15,7 @@ export default function Home() {
         end: 'PRESENT',
         puesto:'Fullstack web developer' ,
         empresa:'SmartReport' ,
-      
+        link: "https://www.smartreport.cl/",
         tecnologias:['Vue', 'Quasar', 'Graphql', 'PostgresSQL'] ,
     },
     {   
@@ -24,6 +24,7 @@ export default function Home() {
         end: 'PRESENT',
         puesto:'Fullstack web developer' ,
         empresa:'Frelancer' ,
+        link: "https://chucholeo387.vercel.app/",
         tecnologias:['Vue', 'React', 'Quasar', 'Next', 'Graphql','PostgresSQL'],
     },
   ] 
@@ -34,14 +35,16 @@ export default function Home() {
       titulo: 'CashFlow',
       descripcion: 'This application allows you to write down your monthly expenses',
       tecnologias: ['Vue'],
-      imagen: '/cashflow-chucholeo387.png'   
+      imagen: '/cashflow-chucholeo387.png',
+      link: "https://github.com/Chucholeo387/CashFlow"   
     },
     {
       id:"2",  
       titulo: 'Personal Web',
       descripcion:'Personal space for the people to know my work',
       tecnologias: ['React', 'Next'],
-      imagen: '/web-chucholeo387.png'   
+      imagen: '/web-chucholeo387.png',
+      link: "https://github.com/Chucholeo387/Chucholeo387-web"     
     }
 ] 
 
@@ -95,7 +98,7 @@ export default function Home() {
           </div> 
         </div>
         <div className="lg:pt-20 lg:my-20"  id="experience">
-          <h3 className="font-bold text-yellow-400" >EXPERIENCIA</h3>
+          <h3 className="font-bold  text-yellow-400" >EXPERIENCIA</h3>
           {
             experiencias.map((obj)=>(
           
@@ -106,6 +109,7 @@ export default function Home() {
                 puesto={obj.puesto}
                 empresa={obj.empresa}
                 tecnologias={obj.tecnologias}
+                link={obj.link}
               />
         
             ))
@@ -122,6 +126,7 @@ export default function Home() {
                 descripcion= {obj.descripcion}
                 tecnologias= {obj.tecnologias}
                 imagen= {obj.imagen}
+                link={obj.link}
               />
             ))
           }
