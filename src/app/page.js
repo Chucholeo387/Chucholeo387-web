@@ -36,7 +36,7 @@ export default function Home() {
       descripcion: 'This application allows you to write down your monthly expenses',
       tecnologias: ['Vue'],
       imagen: '/cashflow-chucholeo387.png',
-      link: "https://github.com/Chucholeo387/CashFlow"   
+      link: "https://chucholeo387-cashflow.netlify.app/"   
     },
     {
       id:"2",  
@@ -45,6 +45,14 @@ export default function Home() {
       tecnologias: ['React', 'Next'],
       imagen: '/web-chucholeo387.png',
       link: "https://github.com/Chucholeo387/Chucholeo387-web"     
+    },
+    {
+      id:"3",  
+      titulo: 'Chucholeo Projects',
+      descripcion:'Most relevant projects as web developer and  few colobarations with partners',
+      tecnologias: ['React', 'Next'],
+      imagen: '/chucholeoproject.png',
+      link: "https://chucholeo387projects.vercel.app/en"     
     }
 ] 
 
